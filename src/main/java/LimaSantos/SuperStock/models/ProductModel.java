@@ -1,12 +1,12 @@
 package LimaSantos.SuperStock.models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "tb_register")
 public class ProductModel {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     String name;
     long id;
     double sellprice;
@@ -17,7 +17,7 @@ public class ProductModel {
     }
 
 
-    public ProductModel(String name, int id, double sellprice, double costprice, int quantitystock) {
+    public ProductModel(String name, long id, double sellprice, double costprice, int quantitystock) {
         this.name = name;
         this.sellprice = sellprice;
         this.costprice = costprice;
