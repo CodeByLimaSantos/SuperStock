@@ -1,4 +1,4 @@
-package LimaSantos.SuperStock.models;
+package LimaSantos.SuperStock.Product.models;
 
 import jakarta.persistence.*;
 
@@ -8,10 +8,10 @@ public class ProductModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     String name;
-    long id;
-    double sellprice;
-    double costprice;
-    int quantitystock;
+    private long id;
+    private double sellprice;
+    private double costprice;
+    private  int quantitystock;
 
     public ProductModel() {
     }

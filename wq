@@ -1,0 +1,23 @@
+[33mcommit 942c91b89cd9d120e1d68f08e9ee0e1dacef8ed3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: CodeByLimaSantos <guilimadev19@gmail.com>
+Date:   Tue Mar 10 19:20:41 2026 -0300
+
+    created entity, table and prepared system to database
+
+[33mcommit 3e9c6b7f7bc0a4102bd011de816bc7a5f2425cae[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: CodeByLimaSantos <guilimadev19@gmail.com>
+Date:   Mon Mar 9 20:55:19 2026 -0300
+
+    added constructors and JPA db
+
+[33mcommit 198ec32d460fca334f925e76393037cf6b390134[m
+Author: CodeByLimaSantos <guilimadev19@gmail.com>
+Date:   Mon Mar 9 20:07:01 2026 -0300
+
+    FIRST COMMIT CONTROLLER CREATED
+
+[33mcommit f9a6d1c9c6cd65ac9d32e8496bbc33273a937020[m
+Author: CodeByLimaSantos <guilimadev19@gmail.com>
+Date:   Mon Mar 9 19:45:21 2026 -0300
+
+    first commit
